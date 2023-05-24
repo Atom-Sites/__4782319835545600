@@ -12,14 +12,14 @@ export default function Example() {
     const { logoUrl, navLinks } = data
 
     return (
-        <Disclosure as="nav" className="editable-component relative bg-primary-400 shadow" id='home' data-json='nav'>
+        <Disclosure as="nav" className="editable-component relative z-10 bg-white shadow py-5 sticky top-0 " id='home' data-json='nav'>
             {({ open }) => (
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 justify-between">
                         <div className="flex">
                             <div className="flex flex-shrink-0 items-center">
                                 <img className="block w-auto h-9 lg:hidden" alt="No alt" src={logoUrl} />
-                                <img className="hidden w-auto h-14 lg:block" alt="No alt" src={logoUrl} />
+                                <img className="hidden w-auto h-20 lg:block" alt="No alt" src={logoUrl} />
                             </div>
                             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                                 {navLinks.map((link) => (
