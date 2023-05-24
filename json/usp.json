@@ -1,0 +1,21 @@
+{
+    "headerText": "Why Choose Hutchison Maintenance?",
+    "uspDescription": "Hutchison Maintenance is a trusted cleaning service provider with over 20 years of experience in various fields of home, office, and restoration cleaning. Our team is dedicated to delivering top-notch services at a fair price, ensuring that your space is cleaned as if it were our own. We operate in the Greater Sudbury Area, Ontario, and are committed to providing excellent customer service.",
+    "features": [
+        {
+            "name": "Personalized Service",
+            "description": "As a small team of trustworthy employees, we take pride in offering personalized cleaning services tailored to your needs. Our owner/operator is either cleaning, working with the team, or inspecting the job personally to ensure the highest quality.",
+            "href": "#"
+        },
+        {
+            "name": "Wide Range of Services",
+            "description": "We offer a variety of cleaning services, including carpet cleaning, commercial cleaning, house cleaning, and window cleaning. Our extensive experience in different cleaning fields allows us to cater to your specific requirements.",
+            "href": "#"
+        },
+        {
+            "name": "Satisfied Customers",
+            "description": "Our customers love our work, and we have numerous 5-star reviews to prove it. We are dedicated to providing exceptional service and ensuring that our clients are happy with the results.",
+            "href": "#"
+        }
+    ]
+}

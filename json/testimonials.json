@@ -1,0 +1,47 @@
+{
+    "headerText": "Reviews",
+    "headerSubText": "See what our satisfied customers have to say about our exceptional cleaning services.",
+    "testimonials": [
+        {
+            "body": "Excellent service and does an awesome job....very lucky to have them for our cleaning",
+            "author": {
+                "name": "Lucien",
+                "source": "NiceJob",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Extremely professional. Did a great job and at a very reasonable rate. I highly recommend Hutchison Maintenance.",
+            "author": {
+                "name": "Heather Moise",
+                "source": "Google",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Great cleaning service, left my house shining before going up for sale.",
+            "author": {
+                "name": "Bronwyn Azar",
+                "source": "Google",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Brandi and her team are always fantastic to work with. They are efficient and still very meticulous.",
+            "author": {
+                "name": "Alisha Hordyk",
+                "source": "Google",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Tyler did my windows and they are gorgeous!  Great work! Great price!",
+            "author": {
+                "name": "Gaby Vandergiessen",
+                "source": "Facebook",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        }
+    ],
+    "anchor": "testimonials"
+}

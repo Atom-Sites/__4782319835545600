@@ -1,0 +1,21 @@
+{
+    "logoImage": "https://cdn.nicejob.co/uploads/production/4782319835545600/1574178991503_null_308_resized.png",
+    "logoImageAlt": "Hutchison Maintenance Logo",
+    "address" : "Greater Sudbury Area, Ontario",
+    "phone" : "+17055617260",
+    "email" : "brandi@hutchisonmaintenance.ca",
+    "socials": [
+        {"name": "Facebook", "href": "https://www.facebook.com/BrandiLynn81/"},
+        {"name": "Google", "href": "https://maps.google.com/maps?cid=1120713897317206633"}
+    ],
+    "services": [
+        {"name": "Carpet Cleaning", "href": "#services"},
+        {"name": "Commercial Cleaning", "href": "#services"},
+        {"name": "House Cleaning", "href": "#services"},
+        {"name": "Window Cleaning", "href": "#services"}
+    ],
+    "review_href": "#reviews",
+    "services_href": "#services",
+    "contact_href": "#contact",
+    "anchor": "footer"
+}

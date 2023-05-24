@@ -1,0 +1,21 @@
+{
+    "logoUrl": "https://cdn.nicejob.co/uploads/production/4782319835545600/1574178991503_null_308_resized.png",
+    "navLinks": [
+        {
+            "name": "Services",
+            "href": "#services"
+        },
+        {
+            "name": "Reviews",
+            "href": "#reviews"
+        },
+        {
+            "name": "Our Work",
+            "href": "#our-work"
+        },
+        {
+            "name": "Contact Us",
+            "href": "#contact"
+        }
+    ]
+}

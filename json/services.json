@@ -1,0 +1,89 @@
+{
+    "services": [
+        {
+            "serviceBlurb": "Spotless Carpets, Every Time",
+            "serviceSlug": "Professional carpet cleaning for a fresh and clean home.",
+            "serviceText": "Our expert carpet cleaning service uses advanced techniques and eco-friendly products to remove dirt, stains, and allergens from your carpets. We ensure a deep clean that leaves your carpets looking and smelling fresh, improving the overall air quality in your home.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
+            "imageAlt": "Carpet cleaning service",
+            "features": [
+                {
+                    "name": "Deep Cleaning",
+                    "description": "Our powerful equipment and techniques penetrate deep into carpet fibers, removing dirt and allergens for a thorough clean."
+                },
+                {
+                    "name": "Eco-Friendly Products",
+                    "description": "We use environmentally friendly cleaning solutions that are safe for your family and pets while effectively removing stains and odors."
+                },
+                {
+                    "name": "Quick Drying",
+                    "description": "Our efficient cleaning process ensures your carpets dry quickly, so you can get back to enjoying your home in no time."
+                }
+            ]
+        },
+        {
+            "serviceBlurb": "A Sparkling Workspace",
+            "serviceSlug": "Comprehensive commercial cleaning for a healthy and productive environment.",
+            "serviceText": "Our commercial cleaning service provides a clean and healthy workspace for your employees and clients. We customize our services to meet the unique needs of your business, ensuring a spotless environment that promotes productivity and leaves a lasting impression on your clients.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+            "imageAlt": "Commercial cleaning service",
+            "features": [
+                {
+                    "name": "Customized Solutions",
+                    "description": "We tailor our cleaning services to meet the specific needs of your business, ensuring a clean and healthy environment for your employees and clients."
+                },
+                {
+                    "name": "High-Quality Equipment",
+                    "description": "We use professional-grade equipment and cleaning products to deliver exceptional results and maintain the highest standards of cleanliness."
+                },
+                {
+                    "name": "Flexible Scheduling",
+                    "description": "We offer flexible scheduling options to minimize disruption to your business operations and accommodate your unique needs."
+                }
+            ]
+        },
+        {
+            "serviceBlurb": "A Home You Can Be Proud Of",
+            "serviceSlug": "Reliable house cleaning services for a spotless and comfortable living space.",
+            "serviceText": "Our house cleaning service takes the stress out of maintaining a clean and organized home. Our experienced team uses eco-friendly products and proven techniques to clean every corner of your home, ensuring a comfortable and healthy living environment for you and your family.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
+            "imageAlt": "House cleaning service",
+            "features": [
+                {
+                    "name": "Customized Cleaning Plans",
+                    "description": "We create a personalized cleaning plan to address your specific needs and preferences, ensuring a clean and comfortable home."
+                },
+                {
+                    "name": "Eco-Friendly Products",
+                    "description": "Our environmentally friendly cleaning solutions are safe for your family and pets, effectively removing dirt and grime without harsh chemicals."
+                },
+                {
+                    "name": "Trained and Trustworthy Team",
+                    "description": "Our professional cleaning team is trained in the latest cleaning techniques and committed to delivering exceptional results."
+                }
+            ]
+        },
+        {
+            "serviceBlurb": "Crystal Clear Views",
+            "serviceSlug": "Expert window cleaning for a brighter and more inviting space.",
+            "serviceText": "Our window cleaning service uses professional equipment and techniques to remove dirt, grime, and streaks from your windows, leaving them sparkling clean and allowing natural light to flood your space. We take care of both interior and exterior windows, ensuring a clear view and a more inviting atmosphere.",
+            "imageUrl": "https://image.shutterstock.com/display_pic_with_logo/301539971/252454888/stock-photo-people-housework-and-housekeeping-concept-happy-woman-in-gloves-cleaning-window-with-rag-and-252454888.jpg",
+            "imageAlt": "Window cleaning service",
+            "features": [
+                {
+                    "name": "Streak-Free Results",
+                    "description": "Our expert window cleaners use professional techniques and equipment to ensure a streak-free finish on your windows."
+                },
+                {
+                    "name": "Interior and Exterior Cleaning",
+                    "description": "We clean both the interior and exterior of your windows, providing a clear view and a more inviting atmosphere in your space."
+                },
+                {
+                    "name": "Safe and Efficient",
+                    "description": "Our team takes all necessary safety precautions and uses efficient methods to clean your windows quickly and effectively."
+                }
+            ]
+        }
+    ],
+    "anchor": "services"
+}
