@@ -9,10 +9,10 @@
         {"name": "Google", "href": "https://maps.google.com/maps?cid=1120713897317206633"}
     ],
     "services": [
-        {"name": "Carpet Cleaning", "href": "#services"},
-        {"name": "Commercial Cleaning", "href": "#services"},
-        {"name": "House Cleaning", "href": "#services"},
-        {"name": "Window Cleaning", "href": "#services"}
+        {"name": "Home Cleaning", "href": "#services"},
+        {"name": "Real Estate Cleaning", "href": "#services"},
+        {"name": "Post Construction Cleaning", "href": "#services"},
+        {"name": "Office Cleaning", "href": "#services"}
     ],
     "review_href": "#reviews",
     "services_href": "#services",
