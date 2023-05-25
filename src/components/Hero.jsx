@@ -18,13 +18,13 @@ export default function Hero() {
                     <h1 className="mt-10 font-bold tracking-tight text-gray-900 text-4xl sm:text-6xl">{headingText}</h1>
                     <p className="mt-6 text-lg leading-8 text-gray-900">{descriptionText}</p>
                     <div className="mt-10 flex items-center gap-x-6">
-                        <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-xl py-5 px-5 hover:bg-primary-600 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold">Get a Free Quote</a>
+                        <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-xl py-5 px-5 rounded-2xl bg-primary-700 hover:bg-primary-600 font-semibold">Get my free quote!</a>
                     </div>
                 </div>
                 <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                     <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                        <div className="-m-2 rounded-xl p-2 ring-1 ring-inset bg-white lg:-m-4 lg:rounded-2xl lg:p-4 h-[600px]">
-                            <div className="w-[40rem] rounded-md shadow-2xl ring-1 ring-gray-900/10 h-full bg-auto bg-no-repeat bg-cover" style={{backgroundImage: `url("${heroImageUrl}")`}}></div>
+                        <div className="-m-2 rounded-xl p-2 lg:-m-4 lg:rounded-2xl lg:p-4 h-[600px]">
+                            <div className="w-[40rem] rounded-md shadow-2xl h-full bg-auto bg-no-repeat bg-cover" style={{backgroundImage: `url("${heroImageUrl}")`}}></div>
                         </div>
                     </div>
                 </div>
