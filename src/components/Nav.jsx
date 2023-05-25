@@ -14,20 +14,21 @@ export default function Example() {
     return (
         <Disclosure as="nav" className="editable-component relative z-10 bg-white shadow py-5 sticky top-0 " id='home' data-json='nav'>
             {({ open }) => (
-                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 justify-between">
                         <div className="flex">
                             <div className="flex flex-shrink-0 items-center">
-                                <img className="block w-auto h-9 lg:hidden" alt="No alt" src={logoUrl} />
+                                <img className="block w-auto h-16 lg:hidden" alt="No alt" src={logoUrl} />
                                 <img className="hidden w-auto h-20 lg:block" alt="No alt" src={logoUrl} />
                             </div>
-                            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                                {navLinks.map((link) => (
-                                    <a className="inline-flex items-center border-transparent px-1 pt-1 text-sm hover:border-gray-300 hover:text-gray-700 text-gray-900 font-bold" href={link.href}>{link.name}</a>
-                                ))}
-                            </div>
+                            
                         </div>
                         <div className="hidden sm:ml-6 sm:items-center md:flex">
+                            <div className="hidden sm:ml-6 sm:flex sm:space-x-8 px-8">
+                                {navLinks.map((link) => (
+                                    <a className="inline-flex items-center border-transparent px-1 pt-1 text-sm hover:text-gray-700 text-gray-900 font-bold" href={link.href}>{link.name}</a>
+                                ))}
+                            </div>
                             <button id="cuxpyc" className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-lg hover:bg-primary-600 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold px-4 py-3 nj-lead sm:">Free Quote</button>
                             <div className="relative ml-3">
                                 <div className=""></div>
@@ -49,6 +50,7 @@ export default function Example() {
                             </button>
                         </div>
                     </div>
+                    
                 </div>
             )}
         </Disclosure>
