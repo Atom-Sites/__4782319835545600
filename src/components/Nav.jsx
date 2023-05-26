@@ -71,11 +71,9 @@ export default function Example() {
 
 
 
-
+        {/*This is the menu on a larger screen*/}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-
-            {/*This is the menu on a larger screen*/}
-               <Popover.Group className="hidden lg:flex justify-end lg:gap-x-8 j py-5 mr-4">
+                <Popover.Group className="hidden lg:flex justify-end lg:gap-x-8 j py-5 mr-4">
                 <Popover className="relative">
                 <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 hover:text-primary-700">
                  Our Services
@@ -112,20 +110,6 @@ export default function Example() {
                 </div>
                   ))}
                 </div>
-
-
-                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                    >
-                      <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                      {item.name}
-                    </a>
-                  ))}
-                </div>
               </Popover.Panel>
             </Transition>
           </Popover>
@@ -140,12 +124,10 @@ export default function Example() {
           </a>
 
  </Popover.Group>
-
-         {/*CTAa on a larger screen*/}
+      {/*CTAs on a larger screen*/}
         <div className="flex items-center">
                 <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent py-5 px-5 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold up">Get Quote</a>
             </div>
-
              <div className="flex items-center ml-2.5">
                 <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-sm py-5 px-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 font-semibold">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -153,9 +135,7 @@ export default function Example() {
                     </svg>
                 </a>
             </div>
-
         </div>
-
       </nav>
 
       
