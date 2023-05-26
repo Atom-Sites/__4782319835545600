@@ -40,7 +40,6 @@ export default function Testimonials() {
                         {testimonials.map((testimonial) => (
                             <div className="pt-8 sm:inline-block sm:w-full sm:px-4">
                                 <figure className="rounded-2xl p-8 text-sm leading-6 bg-neutral-100">
-
                                     <blockquote className="text-gray-900">
                                         <p className="">"{testimonial.body}"</p>
                                     </blockquote>
@@ -54,7 +53,12 @@ export default function Testimonials() {
                                 </figure>
                             </div>
                         ))}
+                        
                     </div>
+                    {/*CTA*/}
+                    <div className="mt-10 flex items-center justify-center">
+                                <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold hover:bg-neutral-700 rounded-2xl bg-neutral-800 text-base py-3 px-4" href="#">Read more reviews</a>
+                            </div>
                 </div>
             </div>
         </div>
