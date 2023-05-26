@@ -93,7 +93,7 @@ export default function Example() {
             >
 
             {/*This is the dropdown menu on a larger screen*/}
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-12 w-screen w-64  max-w- overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-trueGray-200">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-12 w-64  max-w- overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-trueGray-200">
                 <div className="p-2">
                   {products.map((item) => (
                     <div key={item.name} className="group relative flex items-center gap-x-6 rounded-lg p-3 text-sm leading-6 hover:bg-trueGray-100">
