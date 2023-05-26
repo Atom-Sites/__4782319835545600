@@ -24,22 +24,29 @@ export default function Testimonials() {
     const { headerText, headerSubText, testimonials, anchor } = data
 
     return (
-        <div id={anchor} className="editable-component relative py-24 bg-primary-50 sm:py-32" data-json='testimonials'>
+        <div id={anchor} className="editable-component relative py-24 bg-white sm:py-32" data-json='testimonials'>
+            
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-xl text-center">
-                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-primary-900">{headerText}</h2>
-                    <p className="mt-2 text-3xl tracking-tight text-gray-900 font-extrabold sm:text-4xl">{headerSubText}</p>
+
+                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-neutral-800">{headerText}</h2>
+                    <h2 className="mt-2 text-3xl tracking-tight  text-neutral-800 font-extrabold sm:text-4xl sm:leading-tight">{headerSubText}</h2>
+                
                 </div>
+
+                
                 <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
                     <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
                         {testimonials.map((testimonial) => (
                             <div className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                                <figure className="rounded-2xl p-8 text-sm leading-6 bg-white">
+                                <figure className="rounded-2xl p-8 text-sm leading-6 bg-neutral-100">
+
                                     <blockquote className="text-gray-900">
-                                        <p className="">{testimonial.body}</p>
+                                        <p className="">"{testimonial.body}"</p>
                                     </blockquote>
+
                                     <figcaption className="mt-6 flex items-center gap-x-4">
-                                        <img classNameName='h-10 w-10 rounded-full bg-gray-50' width={40} height={40} src={testimonial.author.icon} />
+                                    <img classNameName='h-10 w-10 rounded-full bg-gray-50' width={40} height={40} src={testimonial.author.icon} />
                                         <div className="">
                                             <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
                                         </div>
