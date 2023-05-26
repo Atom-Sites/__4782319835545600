@@ -32,6 +32,10 @@ function iconLookup(network) {
     }
 }
 
+console.log(new Date().getFullYear());
+const App = () => { };
+    
+
 
 export default function Example() {
 
@@ -43,17 +47,18 @@ export default function Example() {
     const { email, phone, logo, address, socials, services, reviews_href, contact_href, services_href, anchor } = data
 
     return (
-        <footer id={anchor} className="editable-component relative bg-neutral-900" data-json='footer'>
+        <footer id={anchor} className="editable-component relative bg-neutral-800" data-json='footer'>
             <h2 className="sr-only">Footer</h2>
-            <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+            <div className="mx-auto max-w-7xl px-6 pb-8 sm:pt-24 lg:px-8">
+            {/*Footer intro*/}
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
-                        <img className="h-14" src={logo} />
-                        <p className="text-sm leading-6 text-gray-300"></p>
+                        <h2 className="font-bold tracking-tight text-white sm:text-4xl sm:leading-tight">Contact us today!</h2>
+                        <p className="text-sm leading-6 text-neutral-300 max-w-xl">We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
                         <div className="flex space-x-6">
                             {socials.map((social) => (
                                 <div>
-                                    <a href={social.href} className="text-gray-400 hover:text-gray-300" >
+                                    <a href={social.href} className="text-neutral-400 hover:text-gray-300" >
                                         <span className="sr-only">{social.name}</span>
                                         <span className="h-6 w-6">
                                             {iconLookup(social.name)}
@@ -63,59 +68,90 @@ export default function Example() {
                             ))}
                         </div>
                     </div>
-                    <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                {/*Footer menu*/}
+                    <div className="mt-16 grid grid-cols-2 place-content-evenly gap-8 xl:col-span-2 xl:mt-0">
+                    {/*Footer menu What We Do*/}
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div className="">
                                 <ul className="mt-6 space-y-4"></ul>
                             </div>
                             <div className="">
-                                <h3 className="font-semibold leading-6 text-white text-base">Services</h3>
+                                <h3 className="font-semibold leading-6 text-white text-base">What We Do</h3>
                                 <ul className="mt-6 space-y-4">
                                     {services.map((service) => (
                                         <li className="">
-                                            <a className="text-sm leading-6 text-gray-300 hover:text-white" href={service.href}>{service.name}</a>
+                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white" href={service.href}>{service.name}</a>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
                         </div>
-
+                    {/*Footer menu About Us*/}
                         <div className="md:grid md:grid-cols-2 md:gap-8">
-                            <div className="mt-10 md:mt-0">
+                            <div className=" mt-6 md:mt-0">
                                 <h3 className="font-semibold leading-6 text-white text-base">About Us</h3>
                                 <ul className="mt-6 space-y-4">
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href={reviews_href}>Reviews</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href={reviews_href}>Reviews</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href={services_href}>Our Work</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href={services_href}>Our Work</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href={contact_href}>Contact</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href={contact_href}>About Us</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="">
+                        {/*Footer menu Get in Touch*/}
+                        <div className="md:grid md:grid-cols-1 md:gap-8">
+                            <div className="mt-10 md:mt-0">
                                 <h3 className="font-semibold leading-6 text-white text-base">Get in Touch</h3>
                                 <ul className="mt-6 space-y-4">
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href="#">{email}</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href="#">{email}</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href="#">{phone}</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href="#">{phone}</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-gray-300 hover:text-white" href="#">{address}</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white" href="#">{address}</a>
                                     </li>
-                                </ul>
-                            </div>
+                                    </ul>
+                               </div>
+                        </div>
                         </div>
                     </div>
                 </div>
-                <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                    <p className="text-xs leading-5 text-gray-400">© Copyright 2023  | Privacy Policy</p>
+
+            {/*Copyright*/}
+                <div className="flex justify-between items-center mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+                {/*Nicejob Atom*/}
+                    <a href=""className="filter grayscale invert brightness-100 hover:brightness-0">
+                        <img className="flex h-8 w-28" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Crafted by NiceJob" />
+                    </a>
+                {/*Privacy*/}
+                    <div className="flex items-center">
+                        <p className="text-xs leading-5 text-neutral-400 py-2">Copyright {new Date().getFullYear()}</p>
+                        <p className="text-xs leading-5 text-neutral-400 py-2 px-1">|</p>
+                        <a href=""className="text-neutral-400 hover:text-neutral-300">
+                            <p className="text-xs leading-5 py-2">Privacy</p>
+                        </a>
+                    {/*Link to top*/}
+                        <div className=" flex ml-6">
+                            <a href=""className="text-neutral-400 hover:text-neutral-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
+                                <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z" clipRule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
     )
 }
+
+
+
+
+
