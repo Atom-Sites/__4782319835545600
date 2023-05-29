@@ -55,10 +55,13 @@ export default function Testimonials() {
                         ))}
                         
                     </div>
-                    {/*CTA*/}
-                    <div className="mt-10 flex items-center justify-center">
-                                <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold hover:bg-neutral-700 rounded-2xl bg-neutral-800 text-base py-3 px-4" href="#">Read more reviews</a>
+                                            {/* Regular CTA*/}
+                                            <div className="mt-10 flex items-center justify-center">
+                            <div className="flex items-center">
+                                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-neutral-800 hover:bg-neutral-700 transition-all ease-in text-base py-3 px-4" href="/reviews">Read more reviews</a>
                             </div>
+                        </div>
+                        
                 </div>
             </div>
         </div>

@@ -49,13 +49,16 @@ export default function Example() {
           </a>
         </div>
 
-        {/*CTAs from Tablet mode Mobile only*/}
+        {/*CTAs Mobile only*/}
         <div className="flex lg:hidden">
-            <div className="flex items-center mr-2">
-                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-sm py-4 px-4 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold">Get Quote</a>
-            </div>
-            <div className="flex items-center mr-2">
-                <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-sm py-4 px-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700 font-semibold"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+     
+          {/* Regular CTA*/}
+          <div className="flex items-center">
+            <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get Quote</a>
+          </div>
+
+          <div className="flex items-center ml-2">
+            <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent font-bold text-base py-3.5 px-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700  transition-all ease-in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                  <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
                 </svg></a>
             </div>
@@ -75,7 +78,7 @@ export default function Example() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                 <Popover.Group className="hidden lg:flex justify-end lg:gap-x-8 j py-5 mr-4">
                 <Popover className="relative">
-                <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 hover:text-primary-700">
+                <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700">
                  Our Services
                 <ChevronDownIcon className="hidden h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                 </Popover.Button>
@@ -116,20 +119,21 @@ export default function Example() {
 
 
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary-700 current:text-primary-700">
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700">
             Reviews
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary-700 current:text-primary-700 mr-6">
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700 mr-6">
             Our Work
           </a>
 
  </Popover.Group>
       {/*CTAs on a larger screen*/}
-        <div className="flex items-center">
-                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent py-5 px-5 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold up">Get Quote</a>
-            </div>
+                {/* Regular CTA*/}
+                <div className="flex items-center">
+                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3.5 px-4" href="#">Get Quote</a>
+              </div>
              <div className="flex items-center ml-2.5">
-                <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-sm py-5 px-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 font-semibold">
+                <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-base py-4 px-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition-all ease-in">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
                     </svg>
@@ -167,7 +171,7 @@ export default function Example() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all ease-in">
                         Our Services
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -191,13 +195,13 @@ export default function Example() {
                 </Disclosure>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all ease-in"
                 >
                   Reviews
                 </a>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all ease-in"
                 >
                   Our Work
                 </a>

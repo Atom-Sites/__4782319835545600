@@ -33,14 +33,14 @@ export default function CallToAction() {
                     <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
                         <h2 className="mt-2 text-3xl tracking-tight text-neutral-800 font-extrabold sm:text-4xl sm:leading-tight">{title}</h2>
                         <p className="mt-6 text-base leading-7 text-neutral-800">{callToAction}</p>
-                        <div className="mt-8">
-                            <div className="mt-10 flex gap-x-6">
-                                <a className="nj-lead font-heading shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white text-white bg-primary-700 text-lg px-5 py-5 hover:bg-primary-600 rounded-2xl font-bold nj-lead">{buttonText}</a>
+                        {/* Big CTA*/}
+                        <div className="mt-10 flex items-center justify-left">
+                            <div className="flex items-center">
+                                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Get my free quote!</a>
                             </div>
-                        </div>
+                    </div>
                     </div>
                 </div>
-
             </div >
         </>
     )

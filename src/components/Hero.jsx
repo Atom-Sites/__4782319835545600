@@ -12,15 +12,19 @@ export default function Hero() {
     const { headingText, descriptionText, heroImageUrl, heroImageAlt, anchor } = data
 
     return (
-        <div id={anchor} className="editable-component relative isolate overflow-hidden bg-primary-400" data-json='hero'>
+        <div id={topofpage} className="editable-component relative isolate overflow-hidden bg-primary-400" data-json='hero'>
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
                 
                 {/*This is the header and CTA*/}
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
-                    <h1 className="mt-10 font-bold tracking-tight text-gray-900 text-4xl sm:text-6xl">{headingText}</h1>
+                    <h1 className="mt-10 font-bold tracking-tight text-neutral-800 text-4xl  md:text-5xl lg:text-6xl">{headingText}</h1>
                     <p className="mt-6 text-lg leading-8 text-gray-900">{descriptionText}</p>
-                    <div className="mt-10 flex items-center gap-x-6">
-                        <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-xl py-5 px-5 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold">Get my free quote!</a>
+
+                {/* Big CTA*/}
+                    <div className="mt-10 flex items-center justify-left">
+                        <div className="flex items-center">
+                            <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Get my free quote!</a>
+                        </div>
                     </div>
                 </div>
 
