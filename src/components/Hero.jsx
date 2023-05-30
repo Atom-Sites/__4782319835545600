@@ -12,7 +12,7 @@ export default function Hero() {
     const { headingText, descriptionText, heroImageUrl, heroImageAlt, anchor } = data
 
     return (
-        <div id={topofpage} className="editable-component relative isolate overflow-hidden bg-primary-400" data-json='hero'>
+        <div id={anchor} className="editable-component relative isolate overflow-hidden bg-primary-400" data-json='hero'>
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
                 
                 {/*This is the header and CTA*/}

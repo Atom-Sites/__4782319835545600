@@ -6,7 +6,6 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Services from '@/components/Service'
 import Header from '@/components/Header'
-
 import USP from '@/components/USP'
 import Testimonials from '../components/Testimonials'
 

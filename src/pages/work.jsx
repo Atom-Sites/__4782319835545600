@@ -14,10 +14,9 @@ const testimonials = [
           'https://services.google.com/fh/files/misc/google_g_icon_download.png',
       },
     },
-    // More testimonials...
   ]
 
-  export default function Example() {
+  export default function Work() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (

@@ -5,7 +5,7 @@ import Nav from '@/components/Nav'
 import Header from '@/components/Header'
 
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
-export default function Example() {
+export default function Privacy() {
     return (
         <>
         <Header />

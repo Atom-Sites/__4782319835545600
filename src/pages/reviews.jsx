@@ -20,7 +20,7 @@ const testimonials = [
     // More testimonials...
   ]
 
-  export default function Example() {
+  export default function Reviews() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
@@ -49,24 +49,20 @@ const testimonials = [
             
                 {/*Review*/}
                 <div className="mx-auto flow-root max-w-3xl lg:mx-0 lg:max-w-none">
-                    <div className="sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
+                    <div className="grid lg:grid-cols-3 gap-4">
                         {testimonials.map((testimonial) => (
-                            <div key={testimonial.author.handle} className="sm:inline-block sm:w-full sm:px-4">
+                            <div key={testimonial.author.handle} className="w-full sm:inline-block">
                                 <figure className="rounded-2xl bg-neutral-50 p-8 text-sm leading-6">
                                     <div className=' lg:max-h-32 lg:hover:max-h-96 transition-all ease-in-out duration-250 '>
-
-                                    <blockquote className="text-neutral-800">
-                                    <p className='lg:line-clamp-5 lg:hover:line-clamp-none'>{`“${testimonial.body}”`}</p>
-                                    </blockquote>
-
+                                        <blockquote className="text-neutral-800">
+                                            <p className='lg:line-clamp-5 lg:hover:line-clamp-none'>{`“${testimonial.body}”`}</p>
+                                        </blockquote>
                                     </div>
 
                                     <figcaption className="mt-6 flex items-center gap-x-4">
-                                <img className="h-10 w-10 rounded-full bg-neutral-50" src={testimonial.author.imageUrl} alt="Review received from (Source)" />
-                                    <div>
+                                        <img className="h-10 w-10 rounded-full bg-neutral-50" src={testimonial.author.imageUrl} alt="Review received from (Source)" />
                                         <div className="font-semibold text-neutral-800">{testimonial.author.name}</div>
-                                    </div>
-                                </figcaption>
+                                    </figcaption>
                                 </figure>
                             </div>))}
                     </div>
