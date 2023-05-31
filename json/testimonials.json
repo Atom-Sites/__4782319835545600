@@ -1,31 +1,16 @@
 {
-    "headerText": "Reviews",
-    "headerSubText": "See what our satisfied customers have to say about our exceptional cleaning services.",
+    "headerText": "Testimonials",
+    "headerSubText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
     "testimonials": [
         {
-            "body": "Excellent service and does an awesome job....very lucky to have them for our cleaning",
+            "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
             "author": {
-                "name": "Lucien",
-                "source": "NiceJob",
-                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
-            }
-        },
-        {
-            "body": "Extremely professional. Did a great job and at a very reasonable rate. I highly recommend Hutchison Maintenance.",
-            "author": {
-                "name": "Heather Moise",
-                "source": "Google",
-                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
-            }
-        },
-        {
-            "body": "Great cleaning service, left my house shining before going up for sale.",
-            "author": {
-                "name": "Bronwyn Azar",
-                "source": "Google",
+                "name": "Leslie Alexander",
+                "source": "google",
                 "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
             }
         }
     ],
-    "anchor": "testimonials"
+    "anchor": "reviews"
 }
+

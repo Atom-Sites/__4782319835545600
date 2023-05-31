@@ -1,0 +1,27 @@
+{
+    "title": {
+        "value": "Award Winning Support",
+        "AI": true,
+        "instructions": "A short title that serves as a call to action"
+     },
+    "callToAction": {
+        "value": "We are here to help you with any questions you may have.",
+        "AI": true,
+        "instructions": "Expand on the title and give more information about the call to action. Should be 1-2 sentences."
+    },
+    "image": {
+        "value": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply",
+        "AI": true,
+        "instructions":  "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+    },
+    "buttonText": {
+        "value": "Visit the help center",
+        "AI": true,
+        "instructions":  "A short call to action that will be displayed on the button."
+    },
+    "anchor": {
+        "value": "our-work",
+        "AI": false
+    }
+}    
+

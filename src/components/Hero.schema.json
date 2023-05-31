@@ -1,0 +1,26 @@
+{
+    "headingText": {
+        "value": "Heading text",
+        "AI": true,
+        "instructions":  "The Heading Text of the page."
+    },
+    "descriptionText": {
+        "value": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+        "AI": true,
+        "instructions":  "The description text of the hero page. Should be a 2 paragraph text."
+    },
+    "heroImageUrl": {
+        "value": "https://cdn.nicejob.co/uploads/production/6432430954381312/1683731947560_5825359704752128_188.png",
+        "AI": true,
+        "instructions":  "An url to a Hero image that will be displayed on the page with a 16:9 aspect ratio"
+    },
+    "heroImageAlt": {
+        "value": "",
+        "AI": true,
+        "instructions": "Alt Text for the Hero Image. Should be a short description of the image."
+    },
+    "anchor": {
+        "value": "hero",
+        "AI": false
+    }
+} 

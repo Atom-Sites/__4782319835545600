@@ -20,8 +20,6 @@ export default function Document(props) {
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
                 />
-                <script type="text/javascript" src="https://storage.googleapis.com/editor-sdk/editor.js"></script>
-
             </Head>
             <body x-data="{'openDialogId': ''}" className="font-body antialiased text-[#41454c] bg-[#FFFFFF] dark:text-[#b3c3d9] dark:bg-[#0e0e0e]">
                 <Main />

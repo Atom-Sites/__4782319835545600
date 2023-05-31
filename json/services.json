@@ -1,89 +1,90 @@
 {
-    "services": [
+  "services": [
+    {
+      "serviceBlurb": "service1",
+      "serviceSlug": "header",
+      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
+      "imageAlt": "image Alt Text",
+      "features": [
         {
-            "serviceBlurb": "Spotless Home Cleaning",
-            "serviceSlug": "Experience a cleaner, healthier home with our top-notch cleaning services.",
-            "serviceText": "Our home cleaning services are designed to give you the peace of mind you deserve and the time you need to enjoy your life and loved ones. We use eco-friendly cleaning products and techniques to ensure a safe and healthy environment for you and your family.",
-            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
-            "imageAlt": "Home cleaning service",
-            "features": [
-                {
-                    "name": "Customized Cleaning Plans",
-                    "description": "We work with you to create a cleaning plan tailored to your needs and preferences, ensuring your home is cleaned just the way you like it."
-                },
-                {
-                    "name": "Trained and Trustworthy Staff",
-                    "description": "Our team of professional cleaners is trained to provide the highest level of service and is committed to maintaining the trust of our clients."
-                },
-                {
-                    "name": "Satisfaction Guaranteed",
-                    "description": "We stand by the quality of our work and guarantee your satisfaction with our home cleaning services."
-                }
-            ]
+          "name": "service 1 feature 1 name",
+          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
         },
         {
-            "serviceBlurb": "Real Estate Cleaning",
-            "serviceSlug": "Maximize your property's appeal with our expert real estate cleaning services.",
-            "serviceText": "We understand the importance of a clean and presentable property when it comes to selling or renting. Our real estate cleaning services are designed to make your property shine and create a lasting impression on potential buyers or tenants. We pay attention to every detail, ensuring a spotless and inviting space.",
-            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0988.jpg",
-            "imageAlt": "Real estate cleaning service",
-            "features": [
-                {
-                    "name": "Pre-Sale and Post-Sale Cleaning",
-                    "description": "We offer comprehensive cleaning services for properties before they hit the market and after the sale is complete, ensuring a smooth transition for all parties involved."
-                },
-                {
-                    "name": "Move-In and Move-Out Cleaning",
-                    "description": "Our move-in and move-out cleaning services help make the moving process easier and less stressful for both landlords and tenants."
-                },
-                {
-                    "name": "Flexible Scheduling",
-                    "description": "We work around your schedule to provide real estate cleaning services when it's most convenient for you, ensuring minimal disruption to your daily routine."
-                }
-            ]
+          "name": "service 1 feature 2 name",
+          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
         },
         {
-            "serviceBlurb": "Post Construction Cleaning",
-            "serviceSlug": "Showcase your newly built homes at their best with our post construction cleaning services.",
-            "serviceText": "Our post construction cleaning services are designed to help builders and contractors present their newly built homes in the best possible light. We take care of all the cleaning tasks, from removing construction debris to polishing surfaces, ensuring your homes are move-in ready and looking their absolute best.",
-            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
-            "imageAlt": "Post construction cleaning service",
-            "features": [
-                {
-                    "name": "Debris Removal",
-                    "description": "We efficiently remove all construction debris, leaving your newly built homes clean and clutter-free."
-                },
-                {
-                    "name": "Detailed Cleaning",
-                    "description": "Our team pays attention to every detail, ensuring all surfaces, fixtures, and appliances are spotless and ready for new occupants."
-                },
-                {
-                    "name": "Timely Service",
-                    "description": "We understand the importance of timely service in the construction industry and work diligently to complete our post construction cleaning services on schedule."
-                }
-            ]
-        },
-        {
-            "serviceBlurb": "Office Cleaning",
-            "serviceSlug": "Create a clean and productive work environment with our professional office cleaning services.",
-            "serviceText": "A clean and well-maintained office is essential for the well-being and productivity of your employees. Our office cleaning services are designed to keep your workspace clean, organized, and inviting. We use eco-friendly cleaning products and techniques to ensure a safe and healthy environment for your staff.",
-            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1004.jpg",
-            "imageAlt": "Office cleaning service",
-            "features": [
-                {
-                    "name": "Customized Cleaning Solutions",
-                    "description": "We work with you to develop a customized office cleaning plan that meets the unique needs of your workspace and business operations."
-                },
-                {
-                    "name": "Flexible Scheduling",
-                    "description": "Our office cleaning services can be scheduled at a time that works best for your business, minimizing disruptions to your daily operations."
-                },
-                {
-                    "name": "High-Quality Service",
-                    "description": "Our team of professional cleaners is committed to providing the highest level of service, ensuring your office is always clean and presentable."
-                }
-            ]
+          "name": "service 1 feature 3 name",
+          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
         }
-    ],
-    "anchor": "services"
+      ]
+    },
+    {
+      "serviceBlurb": "service2",
+      "serviceSlug": "header",
+      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
+      "imageAlt": "image Alt Text",
+      "features": [
+        {
+          "name": "service 2 feature 1 name",
+          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+
+        },
+        {
+          "name": "service 2 feature 2 name",
+          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+        },
+        {
+          "name": "service 2 feature 3 name",
+          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+        }
+      ]
+    },
+    {
+      "serviceBlurb": "service3",
+      "serviceSlug": "header",
+      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
+      "imageAlt": "image Alt Text",
+      "features": [
+        {
+          "name": "service 3 feature 1 name",
+          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+        },
+        {
+          "name": "service 3 feature 2 name",
+          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+        },
+        {
+          "name": "service 3 feature 3 name",
+          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+        }
+      ]
+    },
+    {
+      "serviceBlurb": "service4",
+      "serviceSlug": "header",
+      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
+      "imageAlt": "image Alt Text",
+      "features": [
+        {
+          "name": "service 4 feature 1 name",
+          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+        },
+        {
+          "name": "service 4 feature 2 name",
+          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+        },
+        {
+          "name": "service 4 feature 3 name",
+          "description": "ac tincidunt sapien vehicula erat auctor pellentes"
+        }
+      ]
+    }
+  ],
+  "anchor": "services"
 }

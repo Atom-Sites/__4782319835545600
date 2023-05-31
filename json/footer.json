@@ -1,21 +1,22 @@
 {
-    "logoImage": "https://cdn.nicejob.co/uploads/production/4782319835545600/1574178991503_null_308_resized.png",
-    "logoImageAlt": "Hutchison Maintenance Logo",
-    "address" : "Greater Sudbury Area, Ontario",
-    "phone" : "+17055617260",
-    "email" : "brandi@hutchisonmaintenance.ca",
+    "logoImage": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    "logoImageAlt": "Google Logo",
+    "address" : "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+    "phone" : "(650) 253-0000",
+    "email" : "test@example.com",
     "socials": [
-        {"name": "Facebook", "href": "https://www.facebook.com/BrandiLynn81/"},
-        {"name": "Google", "href": "https://maps.google.com/maps?cid=1120713897317206633"}
+        {"name": "Facebook", "href": "#"},
+        {"name": "Twitter", "href": "#"},
+        {"name": "Instagram", "href": "#"}
     ],
     "services": [
-        {"name": "Home Cleaning", "href": "#services"},
-        {"name": "Real Estate Cleaning", "href": "#services"},
-        {"name": "Post Construction Cleaning", "href": "#services"},
-        {"name": "Office Cleaning", "href": "#services"}
+        {"name": "service 1", "href": "#"},
+        {"name": "service 2", "href": "#"},
+        {"name": "service 3", "href": "#"}
     ],
-    "review_href": "#reviews",
-    "services_href": "#services",
-    "contact_href": "#contact",
-    "anchor": "footer"
+    "review_href": "#",
+    "services_href": "#",
+    "contact_href": "#",
+    "anchor": "contact"
 }
+

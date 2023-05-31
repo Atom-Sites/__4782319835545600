@@ -1,0 +1,70 @@
+{
+    "logoImage": {
+        "value": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+        "AI": true,
+        "instructions":  "Text for company logo"
+    },
+    "logoImageAlt": {
+        "value": "Google Logo",
+        "AI": true,
+        "instructions": "Alt Text for the Logo"
+    },
+    "address" : {
+        "value": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+        "AI": true,
+        "instructions": "Company Address"
+    },
+    "phone" : {
+        "value": "(650) 253-0000",
+        "AI": true,
+        "instructions": "Company Phone Number"
+    },
+    "email" : {
+        "value": "test@example.com",
+        "AI": true,
+        "instructions": "Company E-Mail Address"
+    },
+    "socials": {
+        "value": [
+            {"name": "Facebook", "href": "#"},
+            {"name": "Twitter", "href": "#"},
+            {"name": "Instagram", "href": "#"}
+        ],
+        "AI": true,
+        "instructions": "Create socials if they exist. Use the format provided in the example.",
+        "example": [
+            {"name": "Facebook", "href": "#"},
+            {"name": "Twitter", "href": "#"},
+            {"name": "Instagram", "href": "#"}
+        ]
+    },
+    "services": {
+        "value": [
+            {"name": "service 1", "href": "#"},
+            {"name": "service 2", "href": "#"},
+            {"name": "service 3", "href": "#"}
+        ],
+        "AI": true,
+        "instructions": "Provide links to service by their anchor tags if they are present. Follow the example provided.",
+        "example": [
+            {"name": "service 1", "href": "#"},
+            {"name": "service 2", "href": "#"},
+            {"name": "service 3", "href": "#"}
+        ]
+    },
+    "review_href": {
+        "value": "#",
+        "AI": true,
+        "instructions": "Internal Link to a testimonials or reviews section."
+    },
+    "contact_href": {
+        "value": "#",
+        "AI": true,
+        "instructions": "Internal Link to a Contacts Section"
+    },
+    "anchor": {
+        "value": "contact",
+        "AI": false
+    }
+}
+

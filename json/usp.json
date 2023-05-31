@@ -1,21 +1,21 @@
 {
-    "headerText": "Why Choose Hutchison Maintenance?",
-    "uspDescription": "Hutchison Maintenance is a trusted cleaning service provider with over 20 years of experience in home, office, and restoration cleaning. Our team is dedicated to delivering exceptional results at a fair price, ensuring customer satisfaction. We are insured, bonded, and WSIB compliant, making us a reliable choice for all your cleaning needs.",
+    "headerText": "Header Text",
+    "uspDescription": "Description, about 4 or 5 sentences",
     "features": [
         {
-            "name": "Personalized Service",
-            "description": "As a small team of trustworthy employees, we take pride in providing personalized service to our clients. Our owner/operator is actively involved in cleaning, working with the team, or inspecting the job personally, ensuring the highest quality of service.",
-            "href": "#"
+        "name": "feature1",
+        "description": "feature1 description, about 4 or 5 sentences",
+        "href" : "#"
         },
         {
-            "name": "Strong Reputation",
-            "description": "We have built a strong reputation with builders and real estate agents for being reliable, trustworthy, and fair. Our clients trust us to deliver exceptional results at a fair price, making us their go-to choice for cleaning services.",
-            "href": "#"
+        "name": "feature2",
+        "description": "feature2 description, about 4 or 5 sentences",
+        "href" : "#"
         },
         {
-            "name": "Wide Range of Services",
-            "description": "Hutchison Maintenance offers a variety of cleaning services, including home cleaning, real estate cleaning, post-construction cleaning, and office cleaning. We cater to the unique needs of our clients, ensuring a clean and comfortable environment.",
-            "href": "#"
+        "name": "feature3",
+        "description": "feature3 description, about 4 or 5 sentences",
+        "href" : "#"
         }
     ]
 }

@@ -1,5 +1,6 @@
 {
-    "logoUrl": "#",
+    "AI_INSTRUCTIONS": "Do not update the nav links array, only modify the logo url.",
+    "logoUrl": "Image URL for company logo",
     "navLinks": [
         {
             "name": "Services",
@@ -19,4 +20,3 @@
         }
     ]
 }
-

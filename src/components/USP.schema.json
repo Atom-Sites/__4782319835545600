@@ -1,0 +1,50 @@
+{
+    "headerText": {
+        "value": "Header Text",
+        "AI": true,
+        "instructions":  "The header for the USP section"
+    },
+    "uspDescription": {
+        "value": "Description, about 4 or 5 sentences",
+        "AI": true,
+        "instructions": "A description of the USP section, about 4 or 5 sentences"
+    },
+    "features": {
+        "value": [
+            {
+                "name": "feature1",
+                "description": "feature1 description, about 4 or 5 sentences",
+                "href" : "#"
+            },
+            {
+                "name": "feature2",
+                "description": "feature2 description, about 4 or 5 sentences",
+                "href" : "#"
+            },
+            {
+                "name": "feature3",
+                "description": "feature3 description, about 4 or 5 sentences",
+                "href" : "#"
+            }
+        ],
+        "AI": true,
+        "instructions": "Write exactly three features in the provided format.",
+        "example": [
+            {
+                "name": "The name of the first feature",
+                "description": "A 3-4 sentence description of the first feature",
+                "href" : "A link to additional information. If no link is available, leave as '#'"
+            },
+            {
+                "name": "The name of the second feature",
+                "description": "A 3-4 sentence description of the second feature",
+                "href" : "A link to additional information. If no link is available, leave as '#'"
+            },
+            {
+                "name": "The name of the third feature",
+                "description": "A 3-4 sentence description of the third feature",
+                "href" : "A link to additional information. If no link is available, leave as '#'"
+            }
+        ]
+    }
+}
