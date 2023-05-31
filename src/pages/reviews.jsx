@@ -6,26 +6,14 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 import Header from '@/components/Header'
-
-
-const testimonials = [
-    {
-      body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-      author: {
-        name: 'Leslie Alexander',
-        imageUrl:
-          'https://services.google.com/fh/files/misc/google_g_icon_download.png',
-      },
-    },
-    // More testimonials...
-  ]
+import Testimonials from '@/components/Testimonials'
 
   export default function Reviews() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <>
-        <Header />
+        <Header pagename={'reviews'} />
         <Nav />
 
         {/*Hero for secondary pages*/}
@@ -50,21 +38,7 @@ const testimonials = [
                 {/*Review*/}
                 <div className="mx-auto flow-root max-w-3xl lg:mx-0 lg:max-w-none">
                     <div className="grid lg:grid-cols-3 gap-4">
-                        {testimonials.map((testimonial) => (
-                            <div key={testimonial.author.handle} className="w-full sm:inline-block">
-                                <figure className="rounded-2xl bg-neutral-50 p-8 text-sm leading-6">
-                                    <div className=' lg:max-h-32 lg:hover:max-h-96 transition-all ease-in-out duration-250 '>
-                                        <blockquote className="text-neutral-800">
-                                            <p className='lg:line-clamp-5 lg:hover:line-clamp-none'>{`“${testimonial.body}”`}</p>
-                                        </blockquote>
-                                    </div>
-
-                                    <figcaption className="mt-6 flex items-center gap-x-4">
-                                        <img className="h-10 w-10 rounded-full bg-neutral-50" src={testimonial.author.imageUrl} alt="Review received from (Source)" />
-                                        <div className="font-semibold text-neutral-800">{testimonial.author.name}</div>
-                                    </figcaption>
-                                </figure>
-                            </div>))}
+                        <Testimonials listOnly/>
                     </div>
 
                     {/* Regular CTA*/}

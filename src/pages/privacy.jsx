@@ -8,7 +8,7 @@ import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/soli
 export default function Privacy() {
     return (
         <>
-        <Header />
+        <Header pagename={'privacy'} />
         <Nav />
 
         <div className="bg-white py-20 lg:pt-24">

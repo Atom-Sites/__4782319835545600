@@ -13,7 +13,7 @@ module.exports = {
       xl: ['1.25rem', { lineHeight: '2rem' }],
       '2xl': ['1.5rem', { lineHeight: '2rem' }],
       '3xl': ['2rem', { lineHeight: '2.5rem' }],
-      '4xl': ['2.5rem', { lineHeight: '3.5rem' }],
+      '4xl': ['2.5rem', { lineHeight: '3rem' }],
       '5xl': ['3rem', { lineHeight: '3.5rem' }],
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1.1' }],
@@ -22,11 +22,17 @@ module.exports = {
     },
     colors: {
       primary: {
-        50: '#fffbf7',
-        400: '#eeae4d',
-        600: '#70470b',
-        700: '#9a630e'
-      },
+50: '#F1F9F4',
+100: '#E2F3E9',
+200: '#C2E5D0',
+300: '#A6D9B9',
+400: '#89CCA3',
+500: '#6ABF8A',
+600: '#48A86D',
+700: '#367D51',
+800: '#235235',
+900: '#122B1C',
+950: '#09150E'},
       ...colors
     },
     extend: {
@@ -40,7 +46,14 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      transitionProperty: {
+        'max-height': 'max-height',
+      },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
-}
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+]
+
+  }

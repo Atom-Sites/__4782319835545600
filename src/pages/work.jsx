@@ -21,7 +21,7 @@ const testimonials = [
 
     return (
         <>
-        <Header />
+        <Header pagename={'work'} />
         <Nav />
         {/*Hero for secondary pages*/}
         <div className="bg-primary-100 pt-2 lg:pt-5">
@@ -45,10 +45,6 @@ const testimonials = [
                 <div className="mx-auto flow-root max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
                         
-
-
-
-
 
 
 
